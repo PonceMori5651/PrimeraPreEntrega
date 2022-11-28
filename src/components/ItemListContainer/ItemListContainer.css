@@ -1,0 +1,36 @@
+.container{
+    background-color: beige;
+}
+.totalCards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cardUnidad{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 400px;
+    align-items:center;
+    border: black 0.1px dashed;
+}
+.imgProduct{
+    width: 85%;
+    height: 60%;
+    transition: transform 0.5s;
+}
+.imgProduct:hover{
+    transform: scale(1.1);
+}
+.titleProduct{
+    font-weight: 900;
+    text-align: center;
+}
+.descriptionProduct{
+    text-align: center;
+}
+.priceProduct{
+    color: red;
+    font-weight: 700;
+    font-size: 22px;
+}

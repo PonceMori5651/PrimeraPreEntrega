@@ -34,3 +34,7 @@
     font-weight: 700;
     font-size: 22px;
 }
+.AlignContador{
+    display: flex;
+    flex-direction: column;
+}

@@ -4,7 +4,9 @@
 .totalCards{
     display: flex;
     justify-content: space-around;
+    gap: 20px;
     align-items: center;
+    flex-wrap: wrap;
 }
 .cardUnidad{
     display: flex;
@@ -37,4 +39,7 @@
 .AlignContador{
     display: flex;
     flex-direction: column;
+}
+.stockProduct{
+    font-weight: 900;
 }

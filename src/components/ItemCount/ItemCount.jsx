@@ -1,10 +1,11 @@
 import React from 'react'
 import './ItemCount.css'
+import item from '../../data/item';
 
 export default function ItemCount(props) {
     const [count, setCount] = React.useState(1);
     function handleSuma(){
-      if(count<props.cantidad){
+      if(count<item.props.stock){
         setCount(count+1)
       }
       else{

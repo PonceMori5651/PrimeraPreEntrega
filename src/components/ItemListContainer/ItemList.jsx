@@ -13,6 +13,7 @@ export default function ItemList(props) {
         <p className='titleProduct'>{props.titleProduct}</p>
         <button onClick={handleFavorite} style={{backgroundColor: boleanFavorite===true? "red" : "beige"}}>❤</button>
         <p className='descriptionProduct'>{props.descriptionProduct}</p>
+        <p className='stockProduct'>Stock Disponible: {props.stock}</p>
         <p className='priceProduct'>{props.priceProduct}</p>
     </div>
   )
